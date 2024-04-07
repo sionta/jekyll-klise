@@ -10,10 +10,10 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/sionta/jekyll-klise2"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_data|_layouts|_includes|_sass|LICENSE|README|_config\.yml)!i) }
+  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_(data|layouts|includes|sass)|LICENSE|README|_config\.yml)!i) }
 
   spec.metadata = {
-    # "homepage_uri"      => "https://sionta.github.io/klise2-demo",
+    "homepage_uri"      => "https://sionta.github.io/jekyll-klise2",
     "source_code_uri"   => "https://github.com/sionta/jekyll-klise2",
     "wiki_uri"          => "https://github.com/sionta/jekyll-klise2/wiki",
     "bug_tracker_uri"   => "https://github.com/sionta/jekyll-klise2/issues",
