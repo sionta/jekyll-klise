@@ -1,12 +1,12 @@
 // Reset some basic elements
-* {
+/* * {
   -webkit-transition: background-color 75ms ease-in, border-color 75ms ease-in;
   -moz-transition: background-color 75ms ease-in, border-color 75ms ease-in;
   -ms-transition: background-color 75ms ease-in, border-color 75ms ease-in;
   -o-transition: background-color 75ms ease-in, border-color 75ms ease-in;
   transition: background-color 75ms ease-in, border-color 75ms ease-in;
 }
-
+ */
 .notransition {
   -webkit-transition: none;
   -moz-transition: none; 
@@ -278,10 +278,7 @@ blockquote {
   max-width: -webkit-calc(#{$narrow-size} - (#{$spacing-full} * 2));
   max-width: calc(#{$narrow-size} - (#{$spacing-full} * 2));
   position: relative;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $spacing-full;
-  padding-left: $spacing-full;
+  margin: 0px auto;
   @extend %clearfix;
 
   @include media-query($on-mobile) {
